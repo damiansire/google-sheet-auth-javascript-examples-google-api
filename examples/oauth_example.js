@@ -3,7 +3,7 @@ const path = require("path");
 const process = require("process");
 const { authenticate } = require("@google-cloud/local-auth");
 const { google } = require("googleapis");
-const getRange = require("./sheet_functions");
+const getRange = require("../libs/sheet_functions");
 
 const spreadsheetId = "your_spreadsheetId_here";
 
