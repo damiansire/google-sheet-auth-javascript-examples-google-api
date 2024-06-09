@@ -4,7 +4,7 @@ const getRange = require("./sheet_functions");
 const spreadsheetId = "your_spreadsheetId_here";
 
 const auth = new google.auth.GoogleAuth({
-  keyFile: "./application_credentials.json",
+  keyFile: "./service_account_auth_credentials.json",
   scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
 });
 
